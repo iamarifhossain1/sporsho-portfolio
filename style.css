@@ -1,0 +1,125 @@
+body{
+
+    font-family: poppins;
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+section{
+
+    height: 750px;
+   
+}
+
+.top-banner{
+
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+
+.half-width{
+
+    margin: 3%;
+    float: left;
+    padding: 2%;
+    width: 30%;
+}
+
+.half-width img{
+
+    width: 100%;
+}
+.name-highlight{
+
+    color: coral;
+}
+
+.common-para{
+
+    color: dimgray;
+}
+
+.hire{
+
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.hire:hover{
+
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.middle-banner{
+
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.exp-area{
+
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.exp-area h1{
+
+    margin: 3%;
+}
+
+.fullstack-para{
+
+    color: coral;
+}
+
+.newbie-para{
+
+    color: coral;
+}
+
+.fullstack-box{
+
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px silver;
+    background-color: white;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+
+.newbie-box{
+
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px silver;
+    background-color: white;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    color: dimgray;
+    font-size: 14px;
+    text-align: center;
+}
